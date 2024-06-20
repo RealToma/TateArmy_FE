@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'this coffee';
+  src: url('../public/font/This\ Cafe.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../public/font/Montserrat-Medium.ttf');
+}
+
+.button_bg {
+  background: radial-gradient(100% 100% at 50% 0%, #00ff06 0%, #9effa0 100%);
+}
+
+.button_bg:hover {
+  background: transparent;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #060609;
+  overflow-x: hidden;
+}
+
+.font_this_coffee {
+  font-family: 'this coffee', sans-serif;
+}
+
+.hero_image {
+  background: linear-gradient(
+    180.06deg,
+    rgba(6, 6, 9, 0.06) 0.05%,
+    #0a0a0c 99.95%
+  ) !important;
+}
+
+.about_video_gradient {
+  background: linear-gradient(
+    179.98deg,
+    rgba(6, 6, 9, 0.06) 8.01%,
+    #0a0a0c 109.57%
+  );
+}
+
+.community_and_airdrops {
+  background: radial-gradient(
+    173.78% 103.12% at 50% 103.12%,
+    #00ff06 0%,
+    #9effa0 100%
+  );
+}
+
+.social_media_airdrops {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #ba0fca 0%,
+    #e37ffa 100%
+  );
+}
+
+.community_initiatives_and_contests {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #d8185c 0%,
+    #f892ae 100%
+  );
+}
+
+.reserve_for_future_staking {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #adba1c 0%,
+    #dfe87f 100%
+  );
+}
+
+.team_and_advisors {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #ff7c43 0%,
+    #ffc18a 100%
+  );
+}
+
+.marketing_and_partnerships {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #2121e2 0%,
+    #5656f4 100%
+  );
+}
+
+.reserve {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #ffc90c 0%,
+    #ffe8aa 100%
+  );
+}
+
+.liquidity_pool {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #03af14 0%,
+    #90f69a 100%
+  );
+}
+
+.token_burning {
+  background: radial-gradient(
+    570.48% 93.47% at 15.62% 90.62%,
+    #4f8805 0%,
+    #c0ff6f 100%
+  );
+}
+
+.our_team_sub_title {
+  background: linear-gradient(128.42deg, rgb(197, 255, 169), rgb(60, 255, 113));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: linear-gradient(98.19deg, #c5ffa9 12.13%, #3cff71 84.11%);
+}
+
+.community_blur {
+  background: linear-gradient(
+    180.06deg,
+    rgba(6, 6, 9, 0.0468) 0.05%,
+    rgba(10, 10, 12, 0.78) 99.95%
+  );
+}
+
+.contact_submit_button {
+  background: radial-gradient(100% 100% at 50% 0%, #00ff06 0%, #437844 100%);
+}
+
+.footer_line {
+  background: linear-gradient(
+    90deg,
+    #060609 -0.87%,
+    #00ff06 51.51%,
+    #060609 100%
+  );
+}
+
+.hero_bg {
+  background: url('../public/images/hero-bg-img-01.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
