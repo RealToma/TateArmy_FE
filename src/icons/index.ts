@@ -1,2 +1,2 @@
-export { Play } from './Play'
-export { Upload } from './Upload'
+export { Play } from "./Play";
+export { Upload } from "./Upload";

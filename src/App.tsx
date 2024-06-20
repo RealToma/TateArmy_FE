@@ -8,24 +8,24 @@ import {
   Roadmap,
   Contact,
   Footer,
-} from './components'
+} from "./components";
 
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export const App = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      easing: 'ease',
+      easing: "ease",
       once: true,
       offset: 200,
-    })
-  }, [])
+    });
+  }, []);
 
   return (
-    <div className='relative'>
+    <div className="relative">
       <Hero />
       <About />
       <Tokenomics />
@@ -36,9 +36,9 @@ export const App = () => {
       <Contact />
       <Footer />
       <img
-        src='/images/hero-bg-img-01.png'
-        className=' absolute h-auto w-full top-0 z-[-1]'
+        src="/images/hero-bg-img-01.png"
+        className=" absolute h-auto w-full top-0 z-[-1]"
       />
     </div>
-  )
-}
+  );
+};
