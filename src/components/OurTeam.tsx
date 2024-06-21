@@ -1,3 +1,5 @@
+import { CardSlider } from "../common";
+
 export const OurTeam = () => (
   <section id="team" className="w-full">
     <div className="w-full container pt-[34px] lg:pt-[100px]">
@@ -14,9 +16,7 @@ export const OurTeam = () => (
           to play the game – we're here to change it.
         </p>
       </div>
-      <div data-aos="fade-up">
-        <img src="./images/our-team.png" alt="" className="w-full" />
-      </div>
+      <CardSlider />
       <div className=" mt-4 lg:mt-[48px]">
         <h1 className=" text-[24px] lg:text-[32px] font_this_coffee our_team_sub_title font-normal lg:leading-[48px] text-center">
           Together, we're unstoppable <br /> Ready to join us?
