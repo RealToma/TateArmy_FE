@@ -1,5 +1,5 @@
 export const OurTeam = () => (
-  <section className="w-full">
+  <section id="team" className="w-full">
     <div className="w-full container pt-[34px] lg:pt-[100px]">
       <h1
         data-aos="fade-up"

@@ -5,7 +5,7 @@ import { Play } from "../icons";
 export const About = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   return (
-    <section className="w-full">
+    <section id="about" className="w-full">
       <div className="w-full flex flex-col gap-y-9 lg:flex-row pt-[34px] lg:pt-[134px] gap-x-[206px] container">
         <div className="w-full lg:w-[65%]">
           <h1

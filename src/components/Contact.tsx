@@ -3,7 +3,7 @@ import { SOCIALMEDIAS } from "../constants";
 import { Upload } from "../icons";
 
 export const Contact = () => (
-  <section className="w-full ">
+  <section id="contact" className="w-full ">
     <div className="w-full container px-[2rem] lg:px-[206px] ">
       <div
         data-aos="fade-up"

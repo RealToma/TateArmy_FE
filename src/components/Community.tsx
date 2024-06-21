@@ -1,6 +1,6 @@
 export const Community = () => {
   return (
-    <section>
+    <section id="community">
       <div className="w-full pt-[34px] lg:pt-[100px] container">
         <div className="w-full relative overflow-hidden border border-solid rounded-[38px] border-[#3F9321]">
           <img

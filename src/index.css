@@ -20,6 +20,10 @@
   background: transparent;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #060609;

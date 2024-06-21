@@ -1,6 +1,6 @@
 export const Roadmap = () => {
   return (
-    <section className="w-full">
+    <section id="roadmap" className="w-full">
       <div className="w-full container pt-[34px] lg:pt-[100px]">
         <h1
           data-aos="fade-up"

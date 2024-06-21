@@ -3,7 +3,6 @@ export const LINKS = [
     label: "Home",
     path: "#",
   },
-
   {
     label: "About",
     path: "#about",

@@ -3,7 +3,7 @@ import { TOKENOMICS } from "../constants/Tokenomics";
 
 export const Tokenomics = () => {
   return (
-    <section className="w-full">
+    <section id="tokenomics" className="w-full">
       <div className="container flex-col gap-y-9 lg:flex-row pt-[34px] lg:pt-[90px] flex w-full">
         <div className="w-full lg:w-1/2">
           <h1
