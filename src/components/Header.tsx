@@ -27,7 +27,7 @@ export const Header = () => {
             <li key={link.path}>
               <a
                 onClick={() => setOpen(false)}
-                className="text-white text-base font-normal transition-all duration-150 leading-[19.01px] hover:text-[#00FF06] font_this_coffee"
+                className="text-white icon_hover text-base font-normal transition-all duration-150 leading-[19.01px] hover:text-[#00FF06] font_this_coffee"
                 href={link.path}
               >
                 {link.label}
@@ -37,7 +37,7 @@ export const Header = () => {
         </ul>
         <div
           onClick={() => setOpen(!open)}
-          className="w-[45px] h-[30px] z-[999] flex lg:hidden flex-col justify-between"
+          className="w-[35px] h-[26px] z-[999] cursor-pointer flex lg:hidden flex-col justify-between"
         >
           <div className="w-full h-[3px] rounded bg-[#00FF06]" />
           <div className="w-full h-[3px] rounded bg-[#00FF06]" />

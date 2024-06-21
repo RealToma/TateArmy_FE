@@ -21,7 +21,7 @@ export const AirdropProgram = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="flex z-10 mt-[110px] gap-y-9 flex-col lg:flex-row lg:mt-[331px] gap-x-6 justify-center w-full"
+          className="flex z-[99] mt-[110px] gap-y-9 flex-col lg:flex-row lg:mt-[331px] gap-x-6 justify-center w-full"
         >
           <Button variant="primary">Buy TARMY</Button>
           <Button variant="outline">Join the Community</Button>
@@ -35,7 +35,7 @@ export const AirdropProgram = () => {
       <img
         src="./images/road-map-bg.png"
         alt=""
-        className="w-full absolute bottom-[-1100px]"
+        className="w-full absolute z-[-1] bottom-[-1100px]"
       />
     </section>
   );

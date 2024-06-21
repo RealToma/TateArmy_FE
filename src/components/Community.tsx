@@ -2,7 +2,7 @@ export const Community = () => {
   return (
     <section id="community">
       <div className="w-full pt-[34px] lg:pt-[100px] container">
-        <div className="w-full relative overflow-hidden border border-solid rounded-[38px] border-[#3F9321]">
+        <div className="w-full relative overflow-hidden border border-solid rounded-md lg:rounded-[38px] border-[#3F9321]">
           <img
             data-aos="fade-up"
             src="./images/community.png"

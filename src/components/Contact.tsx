@@ -28,7 +28,7 @@ export const Contact = () => (
         </p>
       </label>
       <div data-aos="fade-up" className="flex pt-[42px] justify-center">
-        <button className="w-[366px] contact_submit_button py-3 text-base font-bold leading-6 text-center text-[#eeeeee] ">
+        <button className="w-[366px] hover:text-[#00ff06]  hover:bg-[#eeeeee] contact_submit_button py-3 text-base font-bold leading-6 text-center text-[#eeeeee] ">
           Submit
         </button>
       </div>
@@ -53,8 +53,11 @@ export const Contact = () => (
         className="flex pb-[48px] justify-center gap-x-6 mt-[28px]"
       >
         {SOCIALMEDIAS.map((media) => (
-          <a href={media.link} className="inline-block">
-            <img className="w-[40.39px] h-[40.39px]" src={media.img} alt="" />
+          <a
+            href={media.link}
+            className="w-[40.39px] footer_icon_hover hover:text-[#040F00] h-[40.39px] rounded-full border border-[#3CFF71] text-[#3CFF71] flex justify-center items-center"
+          >
+            {media.icon}
           </a>
         ))}
       </div>
