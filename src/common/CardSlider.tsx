@@ -9,54 +9,34 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 export const CardSlider = () => {
   const TEAMMEMBERS = [
     {
-      name: "Ozan",
-      title: "Graphic Designer",
-      img: "/images/person-3.png",
-    },
-    {
-      name: "Justin D‘Adamo",
+      name: "Justin",
       title: "CEO & Founder",
       img: "/images/person-1.png",
     },
     {
-      name: "Thomas Ken",
-      title: "Lead Developer",
-      img: "/images/person-2.png",
-    },
-    {
-      name: "Thomas Ken",
+      name: "Toma",
       title: "Lead Developer",
       img: "/images/person-3.png",
     },
     {
-      name: "David Valdi",
-      title: "Community Manger",
-      img: "/images/person-4.png",
+      name: "A.Robben",
+      title: "Project Manager",
+      img: "/images/person-3.png",
     },
     {
-      name: "Ozan",
+      name: "Rodri",
       title: "Graphic Designer",
       img: "/images/person-3.png",
     },
     {
-      name: "Justin D‘Adamo",
-      title: "CEO & Founder",
-      img: "/images/person-1.png",
-    },
-    {
-      name: "Thomas Ken",
-      title: "Lead Developer",
-      img: "/images/person-2.png",
-    },
-    {
-      name: "Thomas Ken",
-      title: "Lead Developer",
-      img: "/images/person-3.png",
-    },
-    {
-      name: "David Valdi",
+      name: "David Villa",
       title: "Community Manger",
       img: "/images/person-4.png",
+    },
+    {
+      name: "Frank Devil",
+      title: "Marketing Manager",
+      img: "/images/person-3.png",
     },
   ];
 
@@ -83,11 +63,11 @@ export const CardSlider = () => {
             key={index}
             className={`w-[341.43px]  relative bg-[#060609] h-[355.49px]`}
           >
-            <div className="w-full overflow-x-hidden h-full border-[2px] border-[#00FF06]">
+            <div className="w-full justify-center overflow-x-hidden h-full border-[2px] border-[#00FF06]">
               <img
                 src={item.img}
                 alt=""
-                className={"object-contain absolute -top-[160px] left-0"}
+                className={"object-cover absolute -top-[160px]"}
               />
               <div className="w-[273px] z-[999] bg-[#060609] absolute -bottom-10 flex items-center flex-col justify-center border border-[#00FF06] left-1/2 -translate-x-1/2 h-[79px]">
                 <p className="text-[#D9D9D9] font-[700] text-[16px] text-center">

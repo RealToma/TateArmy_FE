@@ -33,13 +33,13 @@ export const Contact = () => (
         </button>
       </div>
       <h1
-        data-aos="fade-up"
+        // data-aos="fade-up"
         className="text-center mt-[48px] lg:mt-[75px] mb-[36px] text-[28px] lg:text-5xl text-[#eeeeee] font-normal lg:leading-[72px] font_this_coffee"
       >
         Contact Us
       </h1>
       <p
-        data-aos="fade-up"
+        // data-aos="fade-up"
         className=" text-[14px] lg:text-lg text-[#eeeeee] font-medium lg:leading-6 text-center"
       >
         Email us at{" "}
@@ -49,13 +49,13 @@ export const Contact = () => (
         for any <br /> queries or support
       </p>
       <div
-        data-aos="fade-up"
+        // data-aos="fade-up"
         className="flex pb-[48px] justify-center gap-x-6 mt-[28px]"
       >
-        {SOCIALMEDIAS.map((media) => (
+        {SOCIALMEDIAS.map((media: any) => (
           <a
             href={media.link}
-            className="w-[40.39px] footer_icon_hover hover:text-[#040F00] h-[40.39px] rounded-full border border-[#3CFF71] text-[#3CFF71] flex justify-center items-center"
+            className="w-[40.39px] footer_icon_hover hover:text-[#040F00] h-[40.39px] rounded-full border border-[#3CFF71] text-[#ffffff] flex justify-center items-center"
           >
             {media.icon}
           </a>

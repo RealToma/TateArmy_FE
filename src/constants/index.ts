@@ -1,2 +1,2 @@
 export { LINKS } from "./links";
-export { SOCIALMEDIAS } from "./social-medias";
+export { SOCIALMEDIAS } from "./social-medias.tsx";

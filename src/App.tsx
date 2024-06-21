@@ -13,7 +13,6 @@ import {
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { CardSlider } from "./common";
 
 export const App = () => {
   useEffect(() => {
@@ -36,13 +35,6 @@ export const App = () => {
       <Community />
       <Contact />
       <Footer />
-      <div className="container">
-        <CardSlider />
-      </div>
-      <img
-        src="/images/hero-bg-img-01.png"
-        className=" absolute h-auto w-full top-0 z-[-1]"
-      />
     </div>
   );
 };
