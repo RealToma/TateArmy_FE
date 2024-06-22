@@ -31,8 +31,8 @@
 }
 
 .swiper-slide img {
-  width: 37rem;
-  height: 42rem;
+  width: 24rem;
+  height: 30rem;
   border-radius: 2rem;
   object-fit: cover;
 }
@@ -99,7 +99,7 @@
 }
 
 .slider-controler .slider-arrow::after {
-  content: "";
+  content: '';
 }
 
 .swiper-pagination {

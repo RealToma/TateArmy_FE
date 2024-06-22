@@ -1,2 +1,2 @@
-export { LINKS } from "./links";
-export { SOCIALMEDIAS } from "./social-medias";
+export { LINKS } from './links'
+export { SOCIAL_MEDIAS } from './social-medias'
