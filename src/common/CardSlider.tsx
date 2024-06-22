@@ -9,39 +9,59 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 export const CardSlider = () => {
   const TEAMMEMBERS = [
     {
-      name: "Justin",
-      title: "CEO & Founder",
-      img: "/images/person-1.png",
-    },
-    {
-      name: "Toma",
-      title: "Lead Developer",
-      img: "/images/person-3.png",
-    },
-    {
-      name: "A.Robben",
-      title: "Project Manager",
-      img: "/images/person-3.png",
-    },
-    {
-      name: "Rodri",
+      name: "Ozan",
       title: "Graphic Designer",
       img: "/images/person-3.png",
     },
     {
-      name: "David Villa",
+      name: "Justin D‘Adamo",
+      title: "CEO & Founder",
+      img: "/images/person-1.png",
+    },
+    {
+      name: "Thomas Ken",
+      title: "Lead Developer",
+      img: "/images/person-2.png",
+    },
+    {
+      name: "Thomas Ken",
+      title: "Lead Developer",
+      img: "/images/person-3.png",
+    },
+    {
+      name: "David Valdi",
       title: "Community Manger",
       img: "/images/person-4.png",
     },
     {
-      name: "Frank Devil",
-      title: "Marketing Manager",
+      name: "Ozan",
+      title: "Graphic Designer",
       img: "/images/person-3.png",
+    },
+    {
+      name: "Justin D‘Adamo",
+      title: "CEO & Founder",
+      img: "/images/person-1.png",
+    },
+    {
+      name: "Thomas Ken",
+      title: "Lead Developer",
+      img: "/images/person-2.png",
+    },
+    {
+      name: "Thomas Ken",
+      title: "Lead Developer",
+      img: "/images/person-3.png",
+    },
+    {
+      name: "David Valdi",
+      title: "Community Manger",
+      img: "/images/person-4.png",
     },
   ];
 
   return (
-    <div className="container relative pt-10">
+    <div className="container px-0 lg:px-8 relative pt-10">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -61,13 +81,15 @@ export const CardSlider = () => {
         {TEAMMEMBERS.map((item, index) => (
           <SwiperSlide
             key={index}
-            className={`w-[341.43px]  relative bg-[#060609] h-[355.49px]`}
+            className={` w-[200px] lg:w-[341.43px]  relative bg-[#060609] h-[300.49px]`}
           >
-            <div className="w-full justify-center overflow-x-hidden h-full border-[2px] border-[#00FF06]">
+            <div className="w-full overflow-x-hidden h-full border-[2px] border-[#00FF06]">
               <img
                 src={item.img}
                 alt=""
-                className={"object-cover absolute -top-[160px]"}
+                className={
+                  "object-fill w-full h-full absolute bottom-0 lg:-top-[160px] left-0"
+                }
               />
               <div className="w-[273px] z-[999] bg-[#060609] absolute -bottom-10 flex items-center flex-col justify-center border border-[#00FF06] left-1/2 -translate-x-1/2 h-[79px]">
                 <p className="text-[#D9D9D9] font-[700] text-[16px] text-center">

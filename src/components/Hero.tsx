@@ -17,7 +17,7 @@ export const Hero = () => {
         <div className="flex w-full h-full static lg:absolute top-0 flex-col items-center justify-end">
           <h1
             data-aos="fade-up"
-            className="text-[32px] mt-5 lg:mt-0 lg:text-7xl font_this_coffee text-white font-normal lg:leading-[72px] text-center"
+            className="text-[32px] mt-4 lg:mt-0 lg:text-7xl font_this_coffee text-white font-normal lg:leading-[72px] text-center"
           >
             Join the TateArmy
           </h1>
@@ -29,7 +29,7 @@ export const Hero = () => {
           </h3>
           <p
             data-aos="fade-up"
-            className=" text-[14px] lg:text-lg w-full lg:w-[50%] text-center text-[#EEEEEE] my-5 font-medium leading-6"
+            className=" text-[14px] lg:text-lg w-full lg:w-[50%] text-center text-[#EEEEEE] my-9 font-medium leading-6"
           >
             Welcome to TateArmy, the ultimate crypto revolution! Inspired by the
             legendary Andrew Tate, we're here to disrupt the system and create a
@@ -39,7 +39,7 @@ export const Hero = () => {
           </p>
           <div
             data-aos="fade-up"
-            className="flex mb-[66px] w-full gap-y-9 mt-9 lg:mt-0 lg:w-auto flex-col lg:flex-row justify-center gap-x-6"
+            className="flex mb-[36px] w-full gap-y-9 mt-9 lg:mt-0 lg:w-auto flex-col lg:flex-row justify-center gap-x-6"
           >
             <Button className=" w-full lg:w-auto" variant="primary">
               Buy TARMY

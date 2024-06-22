@@ -12,7 +12,6 @@
 
 .swiper-slide {
   width: 381px;
-  /* height: 42rem; */
   height: 513px;
   position: relative;
 }
@@ -22,12 +21,12 @@
     height: 47rem;
   }
   .swiper-slide {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 20rem !important;
+    height: 25rem !important;
   }
   .swiper-slide img {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 20rem !important;
+    height: 25rem !important;
   }
 }
 

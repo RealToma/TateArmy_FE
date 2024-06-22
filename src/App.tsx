@@ -35,6 +35,10 @@ export const App = () => {
       <Community />
       <Contact />
       <Footer />
+      <img
+        src="/images/hero-bg-img-01.png"
+        className=" absolute h-auto w-full top-0 z-[-1]"
+      />
     </div>
   );
 };

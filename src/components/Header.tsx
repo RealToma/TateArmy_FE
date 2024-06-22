@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { LINKS } from "../constants";
+import { LINKS, SOCIALMEDIAS } from "../constants";
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
@@ -34,14 +34,41 @@ export const Header = () => {
               </a>
             </li>
           ))}
+          <div className="absolute bottom-0">
+            <div
+              data-aos="fade-up"
+              className="flex z-30 bottom-0 pb-[48px] justify-center gap-x-6 mt-[28px]"
+            >
+              {SOCIALMEDIAS.map((media) => (
+                <a
+                  href={media.link}
+                  className="w-[40.39px] footer_icon_hover hover:text-[#040F00] h-[40.39px] rounded-full border border-[#3CFF71] text-[#3CFF71] flex justify-center items-center"
+                >
+                  {media.icon}
+                </a>
+              ))}
+            </div>
+          </div>
         </ul>
         <div
           onClick={() => setOpen(!open)}
           className="w-[35px] h-[26px] z-[999] cursor-pointer flex lg:hidden flex-col justify-between"
         >
-          <div className="w-full h-[3px] rounded bg-[#00FF06]" />
-          <div className="w-full h-[3px] rounded bg-[#00FF06]" />
-          <div className="w-full h-[3px] rounded bg-[#00FF06]" />
+          <div
+            className={`w-full h-[3px] rounded bg-[#00FF06] transition-transform duration-300 ${
+              open ? "transform rotate-[46deg] translate-y-[13px]" : ""
+            }`}
+          />
+          <div
+            className={`w-full h-[3px] rounded bg-[#00FF06] transition-opacity duration-300 ${
+              open ? "opacity-0" : ""
+            }`}
+          />
+          <div
+            className={`w-full h-[3px] rounded bg-[#00FF06] transition-transform duration-300 ${
+              open ? "transform -rotate-[46deg] -translate-y-[10px]" : ""
+            }`}
+          />
         </div>
       </div>
     </header>
