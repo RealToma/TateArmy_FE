@@ -19,13 +19,13 @@
 }
 
 @font-face {
-  font-family: "this coffee";
-  src: url("../public/font/This\ Cafe.ttf");
+  font-family: 'this coffee';
+  src: url('../public/font/ThisCafe.ttf');
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../public/font/Montserrat-Medium.ttf");
+  font-family: 'Montserrat';
+  src: url('../public/font/Montserrat-Medium.ttf');
 }
 
 .button_bg {
@@ -41,13 +41,13 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: #060609;
   overflow-x: hidden;
 }
 
 .font_this_coffee {
-  font-family: "this coffee", sans-serif;
+  font-family: 'this coffee', sans-serif;
 }
 
 .hero_image {
@@ -174,7 +174,7 @@ body {
 }
 
 .hero_bg {
-  background: url("../public/images/hero-bg-img-01.png");
+  background: url('../public/images/hero-bg-img-01.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
